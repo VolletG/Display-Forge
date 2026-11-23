@@ -89,6 +89,11 @@ SHA-256 установщика:
 ```text
 01DE31C06E4650CF6945B1BD0E14A6E4E7E11B7CF0B133E9DAE8C2144C850DDA
 ```
+SHA-256 приложения:
+
+```text
+2AE0AA440E11D3DCF170855A489E1CAA5EDC529E918055589B100194806E4F74
+```
 
 Файл контрольной суммы: [`DisplayForge_0.1.0_x64-setup.exe.sha256`](https://github.com/VolletG/Display-Forge/releases/latest/download/DisplayForge_0.1.0_x64-setup.exe.sha256)
 
