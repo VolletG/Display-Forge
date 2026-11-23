@@ -84,11 +84,21 @@ DisplayForge — приложение для управления режимам
 2. Запустите его. Установка выполняется для всех пользователей компьютера и требует прав администратора.
 3. Если Windows SmartScreen покажет предупреждение о неизвестном издателе, выберите «Подробнее» → «Всё равно запустить». Сборка не подписана код-сертификатом.
 
-SHA-256 установщика `0.1.0`:
+SHA-256 установщика:
 
 ```text
 01DE31C06E4650CF6945B1BD0E14A6E4E7E11B7CF0B133E9DAE8C2144C850DDA
 ```
+
+Файл контрольной суммы: [`DisplayForge_0.1.0_x64-setup.exe.sha256`](https://github.com/VolletG/Display-Forge/releases/latest/download/DisplayForge_0.1.0_x64-setup.exe.sha256)
+
+Проверка в PowerShell:
+
+```powershell
+Get-FileHash .\DisplayForge_0.1.0_x64-setup.exe -Algorithm SHA256
+```
+
+Значение `Hash` должно совпасть с указанным выше.
 
 ### Системные требования
 
